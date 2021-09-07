@@ -1,0 +1,27 @@
+<div class="contacts-header-icons-container">
+  <div class="icon-item-tab"
+       (click)="onSmsIconClicked()">
+    <img class="profile-image" src="assets/me.jpeg" alt="Elad Shechter">
+
+<!--    <i class="material-icons icon-item" [class.active-icon]="activeTab == 'sms'">sms</i>-->
+  </div>
+  <div class="icon-item-tab">
+    <span class="icon">🕘</span>
+<!--    <i class="material-icons icon-item">person</i>-->
+  </div>
+  <div class="icon-item-tab"
+       (click)="onSearchIconClicked()"
+       [class.active]="activeTab == 'search'">
+
+<!--    <i class="material-icons icon-item" [class.active-icon]="activeTab == 'search'">search</i>-->
+    <i class="fa-solid fa-angle-down"></i>
+<!--    <span class="icon icon-status">💬</span>-->
+  </div>
+  <div class="icon-item-tab"
+       (click)="onSearchIconClicked()"
+       [class.active]="activeTab == 'search'">
+
+    <!--    <i class="material-icons icon-item" [class.active-icon]="activeTab == 'search'">search</i>-->
+    <span class="icon icon-menu" aria-label="menu"></span>
+  </div>
+</div>

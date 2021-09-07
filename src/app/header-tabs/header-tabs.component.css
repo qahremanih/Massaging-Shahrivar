@@ -1,0 +1,134 @@
+.contacts-header-icons-container {
+  display: flex;
+  flex: 1;
+  background-color: #e0e0e0;
+}
+
+.icon-item-tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /*border: 1px solid #dfe2e2;*/
+  background-color: #e6e7e7;
+}
+
+.icon-item-tab:hover {
+  background-color: #5cbeb3;
+  border: none;
+}
+.icon-item {
+  font-size: 30px;
+  color: #939495;
+}
+
+.icon-item:hover {
+  color: white;
+}
+
+.active {
+  background-color: #5cbeb3;
+  border: none;
+}
+.active-icon {
+  color: white;
+}
+
+
+
+
+
+
+.common-header {
+  --common-header-border-color: #e0e0e0;
+  display: flex;
+  background-color: var(--main-gray);
+  height: 60px;
+  padding: 10px 16px;
+  flex-shrink: 0;
+}
+.common-header-content {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.common-header-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.common-header-start {
+  display: flex;
+  margin-right: auto;
+}
+.common-header-content {
+  margin: auto 15px;
+  line-height: 1.5;
+}
+
+.u-flex {
+  display: flex !important;
+}
+.u-flex-column {
+  flex-direction: column !important;
+}
+
+.profile-image {
+  flex-shrink: 0;
+  display: block;
+  height: 40px;
+  border-radius: 50%;
+}
+.main-side {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.common-nav-list {
+  display: flex;
+}
+.common-nav-item {
+  margin-left: 10px;
+}
+
+.common-button {
+  padding: 8px;
+}
+.common-button:hover, .common-button:focus {
+  outline: none;
+}
+.common-button:hover .icon, .common-button:focus .icon {
+  filter: grayscale(1) opacity(1);
+}
+.common-button .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+  filter: grayscale(1) opacity(0.5);
+  transition: 0.2s;
+}
+.icon-status {
+  filter: grayscale(1) opacity(0.3) invert(1);
+}
+.icon-menu {
+  text-align: center;
+}
+.icon-menu::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--dark-gray);
+  box-shadow: 0px -6px var(--dark-gray), 0px 6px var(--dark-gray);
+}
+
+
